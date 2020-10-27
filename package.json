@@ -1,0 +1,29 @@
+{
+  "name": "go_react_fillorbust",
+  "version": "1.0.0",
+  "description": "go + react implementation of fill or bust game score keeper",
+  "main": "fillorbust/js/main.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}

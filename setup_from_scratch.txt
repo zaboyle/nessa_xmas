@@ -1,0 +1,16 @@
+for future reference for creating webapps, the following commands were run to initialize this repo
+
+# init package.json
+1. npm init (and follow prompts)
+
+# install babel to compile JS for compatibility with older versions
+2. npm install --save-dev @babel/core@7.1.0 @babel/cli@7.1.0 @babel/preset-env@7.1.0 @babel/preset-react@7.0.0
+
+# tell babel to use env and react presets
+3. create .babelrc
+
+# acquire & configure webpack
+4. npm install --save-dev webpack webpack-cli webpack-dev-server style-loader@0.23.0 css-loader@1.0.0 babel-loader@8.0.2
+
+# acquire & configure react
+5. npm install --save-dev react react-dom
