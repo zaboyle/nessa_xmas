@@ -7,6 +7,6 @@ docker build \
 	# specify location of dockerfile
 	-f build/Dockerfile \
 	# name the image
-	-t fillorbust_image \
+	-t nessa_xmas_image \
 	# specify we want to build the project dir
 	.

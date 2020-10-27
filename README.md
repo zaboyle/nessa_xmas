@@ -1,7 +1,5 @@
-# Fill or Bust Scorekeeper (Go & React)
-fill or bust client-side dynamic
-
-By Zach Boyle & Lisa Cicatello
+# Site for all things Zach :~)
+By Zach Boyle
 
 ## Quick Start
 ```

@@ -12,7 +12,7 @@ class Scorecard extends Component {
 			currentPlayer: "",
 			newPlayer: "",
 			score: 0,
-			scores: { "lisa": 0, "zach": 0 }
+			scores: { "zach": 0 }
 		}
 		this.handleScoreChange = this.handleScoreChange.bind(this);
 		this.handleCurrentPlayerChange = this.handleCurrentPlayerChange.bind(this);

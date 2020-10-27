@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-	entry: "./fillorbust/js/main.jsx",
+	entry: "./web/js/main.jsx",
 	mode: "development",
 	module: {
 		rules: [
@@ -26,7 +26,7 @@ module.exports = {
 		filename: "bundle.js",
 	},
 	devServer: {
-		contentBase: path.join(__dirname, "fillorbust/templates/"),
+		contentBase: path.join(__dirname, "web/templates/"),
 		host: "0.0.0.0",
 		port: 3000,
 		publicPath: "http://localhost:3000/dist/",
@@ -39,7 +39,7 @@ module.exports = {
 			patterns: [
         // relative path is from project dir
         // see https://github.com/webpack-contrib/copy-webpack-plugin
-				{ from: "./fillorbust/static/images/favicon.png" }, // <- your path to favicon
+				{ from: "./web/static/images/favicon.png" }, // <- your path to favicon
 			],
 		}),
 	],

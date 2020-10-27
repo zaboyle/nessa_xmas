@@ -1,8 +1,8 @@
 {
-  "name": "go_react_fillorbust",
+  "name": "nessa_xmas",
   "version": "1.0.0",
-  "description": "go + react implementation of fill or bust game score keeper",
-  "main": "fillorbust/js/main.jsx",
+  "description": "site to track date ideas for nessa + zach",
+  "main": "web/js/main.jsx",
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-pro-sidebar": "^0.4.4"
+  }
 }

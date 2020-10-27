@@ -7,7 +7,7 @@ set -euxo pipefail
 trap "kill 0" EXIT
 
 # start backend
-cd fillorbust/api
+cd web/api
 go build -o ../../dist/main
 cd ../..
 ./dist/main &

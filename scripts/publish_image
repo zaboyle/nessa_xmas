@@ -2,5 +2,5 @@
 
 set -euxo pipefail
 
-docker tag fillorbust_image zboyle/fillorbust_image:0.1.0
-docker push zboyle/fillorbust_image
+docker tag nessa_xmas_image zboyle/nessa_xmas_image:0.1.0
+docker push zboyle/nessa_xmas_image
